@@ -3,8 +3,15 @@ import './style.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyDXmhL6XcWm0Zd90FsqK261BmVqyGUPlKY",
+  authDomain: "p2p-call-a626f.firebaseapp.com",
+  projectId: "p2p-call-a626f",
+  storageBucket: "p2p-call-a626f.appspot.com",
+  messagingSenderId: "281445656175",
+  appId: "1:281445656175:web:34eb79cac8d146817f0f9a",
+  measurementId: "G-HKMYHBXFFX"
 };
 
 if (!firebase.apps.length) {
